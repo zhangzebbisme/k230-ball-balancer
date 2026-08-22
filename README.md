@@ -2,7 +2,6 @@
 
 <img src="images/finished.jpg" width="360" alt="成品实物">
 
-<img src="images/finished2.jpg" width="360" alt="成品实物2">
 
 K230 (CanMV) 钢珠平衡控制系统 —— OpenCV 视觉识别（≥60FPS）+ PID 控制 + Wi-Fi 网页图传
 
