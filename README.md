@@ -92,11 +92,15 @@ K230 (CanMV) 钢珠平衡控制系统 —— OpenCV 视觉识别（≥60FPS）+ 
 | 任务ID | 功能 |
 |---|---|
 | 0x03 | 任务3：回中心 → +5cm → -5cm → 保持 |
+
 | 0x04 | 任务4：发射补偿启动 |
 | 0x14 | 任务4：停止补偿 |
+
 | 0x05 | 任务5：减速补偿启动 |
 | 0x15 | 任务5：减速补偿 |
 | 0x18 | 任务4/5：停止补偿 |
+
+
 | 0x06 | 任务6：捕获位置保持 |
 | 0x16 | 任务6：预备 |
 | 0x17 | 任务6：取消预备 |
@@ -111,16 +115,15 @@ K230 (CanMV) 钢珠平衡控制系统 —— OpenCV 视觉识别（≥60FPS）+ 
 
 ### 状态机（任务 3/4/5/6）
 
-任务3：`TO_CENTER → TO_POSITIVE(+5cm) → TO_NEGATIVE(-5cm) → HOLD_NEGATIVE`
-任务4：`LAUNCH_COMPENSATION → COMPENSATION_RELEASE → STOP_COMPENSATION`
-任务5：`DECEL_COMPENSATION`
-任务6：`CAPTURE_POSITION → HOLD_POSITION`（带 ARM 预备/取消）
+任务3：`TO_CENTER → TO_POSITIVE(+5cm) → TO_NEGATIVE(-5cm) → HOLD_NEGATIVE`先到+5cm再到-5cm然后保持
+任务4：`LAUNCH_COMPENSATION → COMPENSATION_RELEASE → STOP_COMPENSATION`保持中心
+任务5：`DECEL_COMPENSATION`保持中心
+任务6：`CAPTURE_POSITION → HOLD_POSITION`随机一个位置保持
 
 ## 运行环境
 
-- 01Studio CanMV K230 开发板（天猛星）
-- 固件：CanMV v1.8（含 `media.sensor` / `media.display` 模块）
-- 张大头闭环步进电机驱动 + 轮趣双路驱动供电
+-  CanMV K230嘉立创庐山派1G开发板
+- 张大头闭环步进电机驱动 
 
 ## 参数速查
 
