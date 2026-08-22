@@ -1,5 +1,7 @@
 # k230-ball-balancer
 
+<img src="images/finished.jpg" width="360" alt="成品实物">
+
 K230 (CanMV) 钢珠平衡控制系统 —— 串口多任务位置控制 + Wi-Fi 网页图传（双线程融合版）
 
 ## 功能
