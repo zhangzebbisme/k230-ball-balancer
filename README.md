@@ -2,6 +2,8 @@
 
 <img src="https://raw.githubusercontent.com/zhangzebbisme/k230-ball-balancer/main/images/finished.jpg" width="360" alt="成品实物">
 
+<img src="https://raw.githubusercontent.com/zhangzebbisme/k230-ball-balancer/main/images/finished2.jpg" width="360" alt="调试截图">
+
 K230 (CanMV) 钢珠平衡控制系统 —— OpenCV 视觉识别（≥60FPS）+ PID 控制 + Wi-Fi 网页图传
 
 ## 功能
