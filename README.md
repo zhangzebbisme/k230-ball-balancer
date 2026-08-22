@@ -1,8 +1,8 @@
-# k230-ball-balancer
+# 26电赛H题(2026全国大学生电子设计竞赛H题)-K230钢珠平衡 k230-ball-balancer
 
-<img src="https://raw.githubusercontent.com/zhangzebbisme/k230-ball-balancer/main/images/finished.jpg" width="360" alt="成品实物">
+<img src="https://raw.githubusercontent.com/zhangzebbisme/26diansai-H-k230-ball-balancer/main/images/finished.jpg" width="360" alt="成品实物">
 
-<img src="https://raw.githubusercontent.com/zhangzebbisme/k230-ball-balancer/main/images/finished2.jpg" width="360" alt="调试截图">
+<img src="https://raw.githubusercontent.com/zhangzebbisme/26diansai-H-k230-ball-balancer/main/images/finished2.jpg" width="360" alt="调试截图">
 
 K230 (CanMV) 钢珠平衡控制系统 —— OpenCV 视觉识别（≥60FPS）+ PID 控制 + Wi-Fi 网页图传
 
